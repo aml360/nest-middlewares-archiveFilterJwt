@@ -1,0 +1,4 @@
+*.ts
+*.spec.ts
+!*.d.ts
+index.min.js

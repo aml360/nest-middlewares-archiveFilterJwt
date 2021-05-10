@@ -1,0 +1,26 @@
+{
+  "name": "nest-middlewares-archivefilterjwt",
+  "version": "0.0.1",
+  "description": "Default description",
+  "main": "index.js",
+  "repository": "git@github.com:aml360/nest-middlewares-archiveFilterJwt.git",
+  "author": "aml360 <aml360esp@gmail.com>",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "build": "tsc && uglifyjs --compress --mangle --output index.min.js -- index.js"
+  },
+  "dependencies": {
+    "cookie": ">=0.4.1 <1.0.0"
+  },
+  "peerDependencies": {
+    "@nestjs/common": ">=7.0.0"
+  },
+  "devDependencies": {
+    "@nestjs/common": "^7.6.15",
+    "@types/cookie": "^0.4.0",
+    "@types/express": "^4.17.11",
+    "@types/uglify-js": "^3.13.0",
+    "uglify-js": "^3.13.5"
+  }
+}
